@@ -4,7 +4,7 @@ from flask import Flask, request
 
 ip, porta = input("Entre com o IP"), int(input("Entre com a porta"))
 
-app = Flask(";lkjhgfds")
+app = Flask("__main__")
 
 transformadores = {
 
