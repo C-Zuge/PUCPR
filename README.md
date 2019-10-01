@@ -1,4 +1,4 @@
-############# PUCPR Network and Telecom Services
+############# Pontifical Catholic University of Paraná (PUC-PR)
 
-This project is for a class 
-RST Psroject contains a socket in python and an API using Flask to put the data in a local url using TCP IPV4
+This directory is for classes in the university 
+The directory contains subjects that contains projects in Python and C++
