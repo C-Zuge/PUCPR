@@ -42,15 +42,6 @@ def vpp():
 		add_medida(payload)
 		return payload
 
-		{
-            "tId" : self.tId ,
-            "serie" : self.serie ,
-            "tensaoRef" : self.tensaoRef ,
-            "errorRef" : self.error ,
-            "error": error,
-            "status": status,
-            "media": media
-        }
 	return build_response()
 
 
