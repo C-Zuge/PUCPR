@@ -10,7 +10,7 @@
 .INCLUDE <M328PDEF.INC>
 
 ;***********************************************************************************
-;			Inicio do programa, posição zero
+;			Inicio do programa, posiÃ§Ã£o zero
 ;-----------------------------------------------------------------------------------
 
 	.CSEG
@@ -24,17 +24,17 @@
 RESET:
 
 ;-----------------------------------------------------------------------------------
-;			Inicialização do stack pointer
+;			InicializaÃ§Ã£o do stack pointer
 ;-----------------------------------------------------------------------------------
 
-	LDI		R16,	HIGH(RAMEND) ;HIGH byte do maior endereço da SRAM
+	LDI		R16,	HIGH(RAMEND) ;HIGH byte do maior endereÃ§o da SRAM
 	OUT		SPH,	R16
 	
-	LDI		R16,	LOW(RAMEND)	;LOW byte do maior endereço da SRAM
+	LDI		R16,	LOW(RAMEND)	;LOW byte do maior endereÃ§o da SRAM
 	OUT		SPL,	R16
 
 ;-----------------------------------------------------------------------------------
-;			Inicialização das portas de IO
+;			InicializaÃ§Ã£o das portas de IO
 ;-----------------------------------------------------------------------------------
 SETUP:
 
@@ -60,7 +60,7 @@ SETUP:
  
 
 ;***********************************************************************************
-;		Laço principal
+;		LaÃ§o principal
 ;-----------------------------------------------------------------------------------
 MAIN:
 	RCALL	FUNCTION_2
