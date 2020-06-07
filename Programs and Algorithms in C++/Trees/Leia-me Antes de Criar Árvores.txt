@@ -1,0 +1,15 @@
+Antes da implementação de uma Árvore lembre-se que uma Árvore Genérica tem os mesmos campos de uma Árvore Binaria.
+
+No {
+	TipoDado info;------------------>   TipoDado info;
+	No *pai;      ------------------>   No *pai;
+	No *filho;    ------------------>   No *esq;
+	No *prox;     ------------------>   No *dir;
+};
+
+Uma Árvore Genérica pode ser convertida em uma Árvore Binaria MAS NEM SEMPRE O CONTRÁRIO É VERDADEIRO.
+
+No caso onde em uma Árvore Binaria a raiz tem filho direito, tal arvore nao poderia ser convertida para uma Árvore Genérica 
+pois não haveria pai e a Raiz da Árvore Genérica teria um irmão. 
+
+Deve-se atentar para os Ponteiros ( Filho e Prox, Esq e Dir )
